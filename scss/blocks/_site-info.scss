@@ -1,0 +1,28 @@
+  .site-info{
+    margin-top: 15px;
+    margin-bottom: 60px;
+    margin-left: 345px;
+  }
+  
+  .site-info__list{
+    display: flex;
+  }
+  .site-info__item {
+    list-style-type: none;
+    padding: 13px 25px;
+  }
+
+  .site-info__item  + .site-info__item {
+    margin-left: 41px;
+  }
+  
+  .site-info__link{
+    text-decoration: none;
+    font-family: "Lora";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px; 
+    text-align: center;
+    color: #768088;
+  }

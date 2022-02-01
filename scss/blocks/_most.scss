@@ -1,0 +1,90 @@
+
+
+.most__list{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.most__item{
+  width: 100%;
+  max-width: 302px;
+  list-style-type: none;
+  padding: 20px;
+  margin-left: 8px;
+  margin-bottom: 25px;
+}
+
+.most__title{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.most__img{
+  max-width: 296px;
+}
+
+.most__suptitle{
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #101315;
+  margin-left: 20px;
+}
+
+.most__suptext{
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  color: #7A7A7A;
+  margin-left: 20px;
+}
+
+.main-mdf__suptext{
+  width: 100%;
+  max-width: 76px;
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 35px;
+  color: #999999;
+}
+
+.main-mdf__subtext{
+  width: 100%;
+  max-width: 76px;
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 35px;
+  color: #999999;
+}
+
+.site-main__suptime{
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 35px;
+  color: #999999;
+}
+
+.most__hr{
+  background: #DEDEDE;
+  border-radius: 0px;
+  margin-left: 20px;
+}
+
+.most__suptext--mdf{
+  margin-bottom: 32px;
+}
+
+.main-mdf__info{
+  margin-left: 20px;
+}

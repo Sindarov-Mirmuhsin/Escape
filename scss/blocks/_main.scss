@@ -1,0 +1,127 @@
+
+
+.site-main__title{ 
+  width: 100%;
+  max-width: 161px;
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #2E2E2E;
+  margin-bottom: 35px;
+  margin-left: 390px;
+}
+
+.site-main__list{
+  display: flex;
+  padding-left: 0;
+  
+}
+
+.site-main__subtitle{
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.site-main__subtext{
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px; 
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  
+}
+
+.site-main__item:nth-child(1){
+  width: 100%;
+  max-width: 460px;
+  list-style-type: none;
+  background-image: url("../images/image2.jpg");
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  padding: 86px 10px 10px 10px;
+}
+
+.site-main__item:nth-child(2){
+  position: relative;
+  width: 100%;
+  max-width: 460px;
+  list-style-type: none;
+  background-image: url("../images/image3.jpg");
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  padding: 86px 10px 10px 10px;
+}
+
+.site-main__item + .site-main__item{
+  margin-left: 20px;
+}
+
+.main-mdf{
+  display: flex;
+  align-items: center;
+}
+
+.main-mdf__text{
+  width: 100%;
+  max-width: 70px;
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 35px;
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.site-main__span{
+  // margin-left: 205px;
+  margin-left: auto;
+}
+
+.site-main__time{
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 35px;
+  color: rgba(255, 255, 255, 0.7);
+  
+}
+
+.main-mdf__subtext{
+  font-family: "Oxygen";
+  width: 100%;
+  max-width: 76px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 35px; 
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.site-main__info{
+  position: absolute;
+  top: 5px;
+  width: 100%;
+  max-width: 87px;
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 7px 9px;
+  background: #DD783F;
+  border-radius: 2px;
+}
